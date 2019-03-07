@@ -77,7 +77,7 @@ h1 {
     transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     list-style: none;
-    font-size: 1.875em;
+    font-size: 2em;
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
@@ -86,22 +86,11 @@ h1 {
     position: absolute;
     z-index: 0;
     letter-spacing: 10px;
-    margin-top: 50px;
+    margin-left: 250px
 }
 
 .bgimage {
     background-image: url(/image/macbook.jpg);
-}
-
-h1 .intress {
-    background-image: url(https://gfycat.com/spiritedoblongdouglasfirbarkbeetle);
-    background-size: cover;
-    color: transparent;
-    -moz-background-clip: text;
-    -webkit-background-clip: text;
-    text-transform: uppercase;
-    font-size: 120px;
-    line-height: .75;
 }
 
 .intress {
@@ -131,5 +120,31 @@ h1 .intress {
 
 li {
     list-style: none;
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.bgimage2 {
+    background-image: url(/image/249656.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
 }
