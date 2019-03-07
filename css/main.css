@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@-ms-viewport {
+    width: device-width;
+}
+
+body {
+    background-color: #111;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow: hidden;
+}
+
+.title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+    margin: 300px auto 450px;
+}
+
+h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: .75;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+ ::-webkit-scrollbar-button {
+    width: 1px;
+    height: 1px;
+}
+
+.horizontal-scroll {
+    width: 100vh;
+    height: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-transform: rotate(-90deg) translate3d(0, -100vh, 0);
+    transform: rotate(-90deg) translate3d(0, -100vh, 0);
+}
+
+.horizontal-scroll>* {
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: rotate(90deg) translate3d(0, calc(-100vh), 0);
+    transform: rotate(90deg) translate3d(0, calc(-100vh), 0);
+}
+
+.horizontal-scroll__block {
+    width: calc(100vh);
+    height: calc(100vh);
+    position: relative;
+    color: #FFF;
+}
+
+.list-translated {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    list-style: none;
+    font-size: 1.875em;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    color: #eee;
+    text-align: left;
+    position: absolute;
+    z-index: 0;
+    letter-spacing: 10px;
+    margin-top: 50px;
+}
+
+.bgimage {
+    background-image: url(/image/macbook.jpg);
+}
+
+h1 .intress {
+    background-image: url(https://gfycat.com/spiritedoblongdouglasfirbarkbeetle);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: .75;
+}
+
+.intress {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
+li {
+    list-style: none;
+    font-size: 22px;
+}
