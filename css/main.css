@@ -148,3 +148,44 @@ li {
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
 }
+
+.neon {
+    font-size: 60px;
+    font-family: 'Futura';
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-align: center;
+}
+
+.tekst {
+    font-size: 24px;
+    font-family: 'Futura';
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#social-em:hover {
+    color: #f39c12;
+}
+
+#linked:hover {
+    color: #0077B5;
+}
+
+#git:hover {
+    color: crimson;
+}
+
+#linked {
+    color: white;
+    ;
+}
+
+#git {
+    color: white;
+}
+
+#social-em {
+    color: #fff;
+}
