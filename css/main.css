@@ -41,7 +41,7 @@ h1 {
     height: 1px;
 }
 
- ::-webkit-scrollbar-button {
+::-webkit-scrollbar-button {
     width: 1px;
     height: 1px;
 }
