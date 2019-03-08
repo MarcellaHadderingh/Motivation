@@ -189,3 +189,11 @@ li {
 #social-em {
     color: #fff;
 }
+
+#user {
+    color: #fff
+}
+
+#user:hover {
+    color: #ff0080
+}
