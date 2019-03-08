@@ -113,7 +113,7 @@
                             <a href="https://github.com/MarcellaHadderingh" target="_blank"><i id="git" class="fa fa-github-square fa-2x social"></i></a>
                             <a href="https://www.linkedin.com/in/marcella-hadderingh-013115176/" target="_blank"><i id="linked"
                                     class="fa fa-linkedin-square fa-2x social"></i></a>
-                            <a href="http://marcellahadderingh.herokuapp.com" target="_blank"><i id="user" class="fas fa-user fa-2x social"></i></a>
+                            <a href="http://marcellahadderingh.herokuapp.com" target="_blank"><i id="user" class="fa fa-user fa-2x social"></i></a>
                         </li>
                     </ul>
                 </div>
