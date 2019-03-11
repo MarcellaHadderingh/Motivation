@@ -92,7 +92,7 @@
 
         <div class="container-fluid horizontal-scroll__block">
             <div class="row">
-                <div class="col-8" style="margin-top:350px;margin-left:50px;">
+                <div class="col-12" style="margin-top:350px;margin-left:50px;">
                     <p class="intress">Heb ik jou <br>intresse gewekt?</p>
                 </div>
             </div>
@@ -100,7 +100,7 @@
 
         <div class="horizontal-scroll__block bgimage2">
             <div class="row">
-                <div class="col-8" style="margin-top:150px;margin-left:150px;">
+                <div class="col-8" style="margin-top:80px;margin-left:150px;">
                     <h2 class="neon">Neem gerust contact met mij op!</h2>
                     <ul style="margin-top:50px;">
                         <li class="tekst">ROOMWEG 91-A</li>
@@ -119,7 +119,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
